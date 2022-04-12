@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+/*header*/
+
+@keyframes colorBody {
+    0%{
+        background-color: #877E86;
+    }
+    10%{
+        background-color: #999299;
+    } 
+    20%{
+        background-color: #AAA5AC;
+    }
+    30%{
+        background-color: #BCB9BE;
+    }
+    40%{
+        background-color: #CFCDD1;
+    }
+    50%{
+        background-color: #E1E1E3;
+    }
+    60%{
+        background-color: #CFCDD1;
+    }
+    70%{
+        background-color: #BCB9BE;
+    }
+    80%{
+        background-color: #AAA5AC;
+    }
+    90%{
+        background-color: #999299;
+    } 
+    100%{
+        background-color: #877E86;
+    }
+}
+
+body{
+    animation-name: colorBody;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
