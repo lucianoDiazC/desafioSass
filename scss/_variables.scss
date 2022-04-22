@@ -1,0 +1,19 @@
+$redes: (
+        facebook:  #3a5795,
+        instagram: rgb(247, 247, 247),
+        youtube: #e20000,
+); 
+
+@each $red, $color in $redes {
+    .#{$red} {
+        background-color: $color;
+    }
+}
+
+$card: (
+    margen: 0 auto,
+    rem1: 1rem,
+    rem2: 2rem,
+    ancho: 65vw,
+    alto: auto,
+)

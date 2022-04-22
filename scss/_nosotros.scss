@@ -1,0 +1,52 @@
+/*inicio main nosotros*/
+.main__nosotros{
+    margin: 0 auto;
+    height: 100%;
+    width: 90vw;
+    background:linear-gradient(to left, rgba(218, 214, 214, 0.63), rgba(163, 163, 163, 0.63));
+}
+.main__nosotros__card{
+    margin: map-get($card, margen);
+    padding: map-get($card, rem1);
+    width: map-get($card, ancho);
+    height: map-get($card, alto);
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+}
+.main__nosotros__card2{
+    margin: map-get($card, margen);
+    padding: map-get($card, rem2);
+    width: map-get($card, ancho);
+    height: map-get($card, alto);
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+.main__nosotros__card__img{
+    width:350px;
+    height: 250px;
+    background-image: url(../imagenes/cafecover.jpg);
+    display: flex;
+    justify-content: center;
+}
+.main__nosotros__card__img2{
+    @extend .main__nosotros__card__img;
+}
+.main__nosotros__card__texto{
+    width: 50vw;
+    padding: 1rem;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__nosotros__card__texto2{
+    @extend .main__nosotros__card__texto;
+    font-weight: 600;
+}
+
+/*fin main nosotros*/
